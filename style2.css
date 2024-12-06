@@ -1,0 +1,68 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('https://s3.amazonaws.com/prod-cdata-secure.sprinklr.com/DAM/3877/c403c07b-df03-4039-bee7-1a0dd7b449bd-227725003/what_is_netflix_5_en.png?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHUaCXVzLWVhc3QtMSJHMEUCIQDmjQG1%2FbcuqKhJktUNRXsFzb00OqYaMSsjE2hA6uI%2FXgIgPFRWjcGjGVZbq3SUzj0REMwuWCBVHiKxr184LgGFk9oqsgUILRAAGgw4NjkzNjc0NzE2NzQiDNF9qcmYmCR%2F%2FgwgMiqPBZUAB5OAefGadxFmvFUvWMjraCezpY4mbjAuseAfmlRMyL9bjGV8VMEPW0uVN0JycFAgxwXcD%2BPJaHJuorHc0H3LvMq53EffUB1FVzYo8wQJHLmILyWqzH3n96lLwZLszMVeTMvY9mVnda9GRLi3VPq5AP0tSuYOzIYZg52X%2BQicw64i8scTLhruEXOktZqBa3haZk%2Frq0lI%2BeGtvtYEtzVkDbwBTn2xCDzs5WdweU2MGMwiHvQvwR%2FwsPnijmf5BM4LD4sMwE4iydoHndjR%2FNquytJ1sh6IClSJTNWv7tt%2BglN%2B2FeuqqPz4Tr6A0zKYcYPsBArhN9R6mBb4aCWORoAHmNuwni3aYsNsQsdxQXnw9T1DgjR7EnalxjxX6jfbz98uWhIfNviGGpXoaS%2F5xdD1w5D8WR6t2dFM8p44lsgebvLSwzEBLODXZ9sCuS2%2BTHo1skiL2QJsoxUQFu1xm6LpWqOa3F656x86a%2FTwPqT5Vx8XTYkCPtEo24sk36L%2B8Anq%2BCOVfkiE4eY68evfJylJSpc2koG0EUuYu0A9lwBy%2Fy1KIh1wKoU0fY%2BJUsvafopiKrwAS97otseIFqx%2F11q55D%2F17aI3%2FU9qZPII3pZ4%2BCqajGYxeO3k511n3XrZymI4QWH4vbSIWSdE9aaH3HsVesMdYfvv5%2BSwR7nJZOHt39NbxMEbTcQycWbpcUxmFC3SX4GeXjptHcKT6Pd%2B45eIoZ8OGqU083lBSUlPWHKuIM7PFqKy1pyUQbsifEMM1au1Aa8zYE%2B6XSCGr2U%2F1Ja8y6ZYDdGqCyfja58HJINWNpZ1acVlvHywZui8lKdMhGOBWV4uehDGUJ5IZuDWIaJVUE%2BDjSwskwzVbGv4c4wkNrLugY6sQESti1NCh82Wu%2FZA7YepYJdZyW1uulXRlLxxr1y2mi5AP0vQhK%2FS0PzKYy2khB9CL0IASHcT7J0Wbw50SM%2F6Grs3wUJ%2FcU6tEnmb0lnuzLx%2BSEG5Ss5I0AGAsTtjmT1%2FrcgdeOe4e3BaGYT4wOmUqnUqhYfWpuoJrF1FQr%2FQ1VxvSRL4dDVTpraKJCIDEMydJTCVo%2BXCgJNawFK3lS2pGzdQy0nA767mmowX562RndRg6Q%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20241206T132703Z&X-Amz-SignedHeaders=host&X-Amz-Expires=1800&X-Amz-Credential=ASIA4U2SW3Y5CGNZC3BU%2F20241206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c242f28749500df8715f47b0227c3040e4e8b91f0db38201d04e8aa9638dd0ec');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box
+{
+    padding: 20px 30px;
+    width: 300px;
+    height: 500px;
+    backdrop-filter: blur(50px);
+    border-radius: 5px;
+    background: rgba(49, 49, 49, .2);
+    border: 1px solid rgba(255, 255, 255, .5);
+}
+.box .form
+{
+    padding: 10px 20px;
+}
+.box .form h2
+{
+    text-align: center;
+    color: #fff;
+}
+.box .form form
+{
+    margin-top: 50px;
+    align-items: center;
+}
+.box .form form .inputbox input
+{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #12151e;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.box .form form .inputbox span
+{
+    position: absolute;
+    transform: translateY(-80px);
+    font-size: 14px;
+    color: #fff;
+}
+.box .form form .sub
+{
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #0cc0df;
+    cursor: pointer;
+    font-size: 16px;
+}
